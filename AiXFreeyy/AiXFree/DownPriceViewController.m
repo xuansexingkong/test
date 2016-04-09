@@ -103,7 +103,7 @@
     XFreeModel *appModel = self.data[indexPath.row];
     detailController *detailVC = [[NSClassFromString(@"detailController") alloc] init];
     
-    [detailVC setValue:appModel.appID forKey:@"appID"];
+    [detailVC setValue:appModel.appID forKey:@"appID"];//yefei
     
     [self.navigationController pushViewController:detailVC animated:YES];
     
