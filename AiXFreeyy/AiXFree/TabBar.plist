@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>限免</string>
+		<key>className</key>
+		<string>XFreeViewController</string>
+		<key>selectimage</key>
+		<string>tabbar_limitfree_press</string>
+		<key>image</key>
+		<string>tabbar_limitfree</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>降价</string>
+		<key>className</key>
+		<string>DownPriceViewController</string>
+		<key>selectimage</key>
+		<string>tabbar_reduceprice_press</string>
+		<key>image</key>
+		<string>tabbar_reduceprice</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>免费</string>
+		<key>className</key>
+		<string>FreeViewController</string>
+		<key>selectimage</key>
+		<string>tabbar_appfree_press</string>
+		<key>image</key>
+		<string>tabbar_appfree</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>专题</string>
+		<key>className</key>
+		<string>SpecialTopicViewController</string>
+		<key>selectimage</key>
+		<string>tabbar_subject_press</string>
+		<key>image</key>
+		<string>tabbar_subject</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>热榜</string>
+		<key>className</key>
+		<string>TrendViewController</string>
+		<key>selectimage</key>
+		<string>tabbar_rank_press</string>
+		<key>image</key>
+		<string>tabbar_rank</string>
+	</dict>
+</array>
+</plist>

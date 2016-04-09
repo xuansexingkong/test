@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="spcialCell" rowHeight="410" id="KGk-i7-Jjw" customClass="specialTopicTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="402" height="410"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="topic_Cell_Bg" translatesAutoresizingMaskIntoConstraints="NO" id="FC3-Cx-oQZ">
+                        <rect key="frame" x="-7" y="0.0" width="409" height="409"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XND-7a-G0I">
+                        <rect key="frame" x="21" y="8" width="410" height="45"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fxw-Mg-5Y3">
+                        <rect key="frame" x="8" y="47" width="152" height="227"/>
+                    </imageView>
+                    <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="58" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="PmR-Ug-GiC">
+                        <rect key="frame" x="181" y="47" width="200" height="238"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </tableView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="topic_Header" translatesAutoresizingMaskIntoConstraints="NO" id="Mke-LA-MKz">
+                        <rect key="frame" x="30" y="289" width="52" height="47"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1CM-6d-rKL">
+                        <rect key="frame" x="90" y="289" width="284" height="83"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.8025962752525253" green="0.8025962752525253" blue="0.8025962752525253" alpha="1" colorSpace="calibratedRGB"/>
+            <connections>
+                <outlet property="appTableView" destination="PmR-Ug-GiC" id="MeC-FZ-J8f"/>
+                <outlet property="editer" destination="Mke-LA-MKz" id="mu2-1O-adO"/>
+                <outlet property="headImage" destination="Fxw-Mg-5Y3" id="xRl-AT-MqL"/>
+                <outlet property="recommend" destination="1CM-6d-rKL" id="3vp-4z-S2P"/>
+                <outlet property="title" destination="XND-7a-G0I" id="4ZL-wH-mOV"/>
+            </connections>
+            <point key="canvasLocation" x="467" y="384"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="topic_Cell_Bg" width="310" height="308"/>
+        <image name="topic_Header" width="31" height="32"/>
+    </resources>
+</document>
